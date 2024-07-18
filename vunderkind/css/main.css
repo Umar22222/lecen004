@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161b22;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #58a6ff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.auth a {
+    background-color: #238636;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.announcement {
+    background-color: #8b949e;
+    color: #161b22;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-content {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#email {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+#signup-button, #enterprise-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#signup-button {
+    background-color: #238636;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#enterprise-button {
+    background-color: #21262d;
+    color: #58a6ff;
+    border: 1px solid #58a6ff;
+    border-radius: 5px;
+}
+
+.trusted {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.logos img {
+    margin: 0 10px;
+}
